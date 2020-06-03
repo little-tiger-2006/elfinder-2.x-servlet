@@ -3,6 +3,9 @@ package org.grapheco.elfinder.controller.executor;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.stereotype.Component;
+
+
 public class DefaultCommandExecutorFactory implements CommandExecutorFactory
 {
 	String _classNamePattern;
